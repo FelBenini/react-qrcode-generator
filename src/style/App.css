@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Candal&family=Voces&display=swap');
+
+* {
+  font-family: 'Voces', sans-serif;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p {
+  font-family: 'Voces', sans-serif;
+  font-size: 16px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  font-family: 'Candal', sans-serif;
+  font-size: 48.83px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h2 {
+  font-family: 'Candal', sans-serif;
+  font-size: 39.06px;
+}
+
+h3 {
+  font-family: 'Candal', sans-serif;
+  font-size: 31.25px;
+  color: #091E25;
+}
+
+h3 svg {
+  margin-right: 12px;
+  margin-bottom: -9px;
+}
+
+h4 {
+  font-family: 'Candal', sans-serif;
+  font-size: 25.00px;
+}
+
+h5 {
+  font-family: 'Candal', sans-serif;
+  font-size: 20.00px;
+}
+
+h6 {
+  font-family: 'Candal', sans-serif;
+  font-size: 12.80px;
+}
+
+body {
+  background-color: #FEFFFE;
+}
+
+header {
+  width: calc(100% - 40px);
+  background: #FEFFFE;
+  outline: 1px solid rgba(25, 100, 126, 0.3);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.08);
+  height: 60px;
+  padding: 0px 20px;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+header h3 {
+  margin-top: -4px;
+  margin-left: 30px;
+  opacity: 0.7;
 }
