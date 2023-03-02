@@ -143,9 +143,29 @@ form input {
 }
 
 @media (max-width: 700px) {
-  .App section form, .App section #QrContainer {
+  .App section form {
     width: 100%;
-    height: 45vh;
+    height: 320px;
+  }
+
+  .App section #QrContainer {
+    width: 100%;
+    height: 440px;
+  }
+
+  #blankQR {
+    width: 120px;
+    height: 120px;
+  }
+  header {
+    width: calc(100% - 10px);
+    padding: 0px 5px;
+  }
+  header h3 {
+    margin-left: 8px;
+  }
+  h3 {
+    font-size: 28px;
   }
 }
 
@@ -168,4 +188,14 @@ button:hover {
 
 button:active {
   transform: scale(1);
+}
+
+#blankQR {
+  width: fit-content;
+  height: fit-content;
+  padding: 16px;
+  border: 3px solid #B2B9BB;
+  border-radius: 24px;
+  height: 250px;
+  width: 250px;
 }
