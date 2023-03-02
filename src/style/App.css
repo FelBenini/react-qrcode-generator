@@ -125,6 +125,12 @@ form input {
   padding: 8px 16px;
   width: 240px;
   border-radius: 8px;
+  border: #091e25c2 1.2px solid;
+}
+
+#url:focus {
+  outline: #091e25c2 1.4px solid;
+  background-color: #091e250c;
 }
 
 #colorTitle {
