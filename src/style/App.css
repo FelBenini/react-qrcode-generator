@@ -127,6 +127,15 @@ form input {
   border-radius: 8px;
 }
 
+#colorTitle {
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+  padding-left: 20px;
+  margin-top: 24px;
+  color: #091e25b7;
+}
+
 @media (max-width: 700px) {
   .App section form, .App section #QrContainer {
     width: 100%;

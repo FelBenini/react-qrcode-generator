@@ -7,7 +7,7 @@ import Form from './components/form';
 
 function App() {
   const [url, setUrl] = useState('')
-  const [color, setColor] = useState(['#FFFFFF', '#000000'])
+  const [color, setColor] = useState(['#000000', '#FFFFFF'])
   const [scale, setScale] = useState(240)
   return (
     <div className="App">
