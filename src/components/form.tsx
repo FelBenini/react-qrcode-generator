@@ -1,7 +1,7 @@
 import React from 'react'
 import MenuItem from '@mui/material/MenuItem';
 import Select from '@mui/material/Select';
-import { FormControl } from '@mui/material';
+import { FormControl, SelectChangeEvent } from '@mui/material';
 
 interface propsTypes {
     setUrl: React.Dispatch<React.SetStateAction<string>>,
@@ -13,7 +13,7 @@ interface propsTypes {
 
 
 const Form = ({ setUrl, color, setColor, scale, setScale }: propsTypes) => {
-    const handleChange = (event: any) => {
+    const handleChange = (event: SelectChangeEvent<unknown>) => {
         setScale(event.target.value as number);
     };
     return (
