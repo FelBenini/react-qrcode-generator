@@ -18,7 +18,7 @@ const Form = ({ setUrl, color, setColor, scale, setScale }: propsTypes) => {
     };
     return (
         <form>
-            <input type="text" id='url' placeholder='Paste you text here...' onChange={(e) => { setUrl(e.target.value) }} />
+            <input type="text" id='url' placeholder='Paste you URL here...' onChange={(e) => { setUrl(e.target.value) }} />
             <FormControl sx={{ m: 1, minWidth: 120 }}>
                 <Select
                     id="demo-simple-select"
