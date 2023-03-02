@@ -148,3 +148,24 @@ form input {
     height: 45vh;
   }
 }
+
+button {
+  background-color: transparent;
+  cursor: pointer;
+  color: #19647E;
+  border: 2px #119DA4 solid;
+  font-size: 20px;
+  height: 42px;
+  width: 142px;
+  border-radius: 12px;
+  transition: all ease-in-out 0.1s;
+}
+
+button:hover {
+  background-color: #119da417;
+  transform: scale(1.1);
+}
+
+button:active {
+  transform: scale(1);
+}

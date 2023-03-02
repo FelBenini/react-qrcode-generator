@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import QRCode from 'react-qr-code';
-import qrDownloader from './qrDownloader';
 import './style/App.css';
 import Header from './components/header';
 import Form from './components/form';
+import DownloadButton from './components/downloadButton';
 
 function App() {
   const [url, setUrl] = useState('')
@@ -17,7 +17,7 @@ function App() {
         <div id='QrContainer'>
           <h4>Your QR Code will appear here</h4>
           {url !== '' ? <QRCode id='QRCode' value={url} size={scale} fgColor={color[0]} bgColor={color[1]} />: <span></span>}
-          <button onClick={qrDownloader}>Download QRCode</button>
+          <DownloadButton/>
         </div>
       </section>
     </div>
